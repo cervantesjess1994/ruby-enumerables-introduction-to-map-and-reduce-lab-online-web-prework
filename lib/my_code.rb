@@ -22,7 +22,7 @@ def map_to_double(array)
  end
  double_array
  end
- 
+
 def map_to_square(array)
  i = 0
  square_array = []
@@ -33,7 +33,7 @@ def map_to_square(array)
  end
  square_array
  end
- 
+
 def reduce_to_total(array, starting_point = 0)
  i = 0
  starting_point
@@ -43,7 +43,7 @@ def reduce_to_total(array, starting_point = 0)
  end
  starting_point
  end
- 
+
 def reduce_to_all_true(array)
  value = true
  i = -1
